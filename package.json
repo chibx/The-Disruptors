@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "dev": "node dev.js",
+        "build": "node build.js",
+        "local": "node start.js"
+    },
+    "devDependencies": {
+        "@types/node": "^24.3.1"
+    }
+}

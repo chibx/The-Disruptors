@@ -1,0 +1,26 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "license": "ISC",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup --config",
+        "start": "nodemon index.js --watch .",
+        "db:push": "drizzle-kit push",
+        "db:pull": "drizzle-kit pull"
+    },
+    "dependencies": {
+        "dotenv": "^17.2.2",
+        "drizzle-orm": "^0.44.5",
+        "express": "^5.1.0",
+        "postgres": "^3.4.7",
+        "zod": "^4.1.11"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "drizzle-kit": "^0.31.4",
+        "nodemon": "^3.1.10",
+        "rollup": "^4.52.2"
+    }
+}
